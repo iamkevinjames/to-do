@@ -39,8 +39,9 @@ function Login() {
               <Button
                 width="250px"
                 value="Login with Google"
-                backgroundColor="rgb(66,133,244,0.5)"
+                backgroundColor="rgb(66,133,244)"
               />
+              <Link color="#911" text="Dont have an accout? Register here!" />
             </div>
           </Card>
         </div>

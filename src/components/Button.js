@@ -34,10 +34,8 @@ function Button(props) {
       fontSize: fontSize,
     },
     buttonHover: {
-      color: "rgba(100,100,100,1)",
-      backgroundColor: backgroundColor
-        ? backgroundColor
-        : "rgba(150,255,150,0.5)",
+      color: "rgba(10,10,10,1)",
+      backgroundColor: backgroundColor ? backgroundColor : "rgba(150,255,150)",
       width: width,
       height: height,
       border: "0",
