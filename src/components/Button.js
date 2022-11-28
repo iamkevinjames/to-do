@@ -8,7 +8,7 @@ function Button(props) {
     fontSize = "1em",
     backgroundColor,
     onClick = () => {
-      console.log("Clicked");
+      console.log("Button Clicked");
     },
   } = props;
 
