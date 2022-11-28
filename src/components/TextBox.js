@@ -34,7 +34,7 @@ function TextBox(props) {
       flexDirection: "column",
       justifyContent: "center",
     },
-    textBoxLabel: { marginLeft: "1em" },
+    textBoxLabel: { marginLeft: "1em", fontSize: "0.9em" },
   };
 
   const onActive = () => {

@@ -18,8 +18,6 @@ function Card(props) {
     },
   };
 
-  console.log(style);
-
   return (
     <div style={cardStyle.cardContainer}>
       <div style={cardStyle.card}>{props.children}</div>

@@ -1,18 +1,21 @@
 import React, { useState } from "react";
 
 function Link(props) {
-  const { url = "#", text = "link", color } = props;
+  const { text = "link", color, onClick = () => {} } = props;
 
   const [isHover, setHover] = useState(false);
 
   const linkStyle = {
     link: {
-      color: color ? color : "rgba(50,155,50,1)",
+      color: color ? color : "rgba(50,155,50)",
+      opacity: 1,
       textDecoration: "none",
     },
     linkHovered: {
-      color: color ? color : "rgba(150,255,150,1",
+      color: color ? color : "rgba(50,155,50)",
+      opacity: 0.6,
       textDecoration: "none",
+      cursor: "pointer",
     },
     linkContainer: {
       display: "flex",
@@ -28,14 +31,14 @@ function Link(props) {
   };
   return (
     <div style={linkStyle.linkContainer}>
-      <a
-        href={url}
+      <div
+        onClick={onClick}
         style={isHover ? linkStyle.linkHovered : linkStyle.link}
         onMouseEnter={onHover}
         onMouseLeave={offHover}
       >
         {text}
-      </a>
+      </div>
     </div>
   );
 }

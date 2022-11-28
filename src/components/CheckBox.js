@@ -5,14 +5,17 @@ function CheckBox(props) {
 
   const checkboxStyle = {
     checkbox: {
-      width: "1.5em",
-      height: "1.5em",
+      width: "1em",
+      height: "1em",
+      marginTop: "0.5em",
     },
     checkboxContainer: {
       display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
     },
     checkboxLabel: {
-      fontSize: "1.2em",
+      fontSize: "0.9em",
       marginLeft: ".5em",
     },
   };

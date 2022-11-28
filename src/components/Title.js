@@ -9,10 +9,9 @@ function Title(props) {
       fontWeight: "bold",
       paddingTop: "25px",
       paddingBottom: "20px",
-      background:
-        "-webkit-linear-gradient(rgba(150,255,150),rgb(100,0,25,0.9) )",
-      "-webkit-background-clip": "text",
-      "-webkit-text-fill-color": "transparent",
+      background: "linear-gradient(rgba(150,255,150),rgb(100,0,25,0.9) )",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
     },
   };
 
