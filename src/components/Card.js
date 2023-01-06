@@ -1,7 +1,7 @@
 import React from "react";
 
 function Card(props) {
-  const { height = "200px", width = "200px", style = {} } = props;
+  const { height = "200px", width = "200px", style = {}, className } = props;
 
   const cardStyle = {
     cardContainer: {
@@ -19,7 +19,7 @@ function Card(props) {
   };
 
   return (
-    <div style={cardStyle.cardContainer}>
+    <div style={cardStyle.cardContainer} className={className}>
       <div style={cardStyle.card}>{props.children}</div>
     </div>
   );
