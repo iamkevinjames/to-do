@@ -12,6 +12,12 @@
   background-size: cover;
 }
 
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .to-do-container {
   margin: 50px;
 }
@@ -210,4 +216,56 @@
   }
   to {
   }
+}
+
+.compete-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: darkslategray;
+}
+
+.compete-player {
+  margin: auto;
+  text-align: center;
+}
+
+.compete-player-card {
+  overflow: auto;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.compete-player.player1 {
+  background-color: yellow;
+}
+.compete-player.player2 {
+  background-color: blue;
+}
+
+.compete-todo {
+  font-size: 1.2em;
+  width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.compete-todo input {
+  transform: scale(1.5);
+}
+
+.error-textbox {
+  background-color: #ff2255;
+}
+
+.strike-todo {
+  text-decoration: line-through;
+}
+
+.compete-todo-label {
+  margin: 5px;
+  margin-left: 30px;
+  width: 200px;
+  display: inline-block;
+  text-align: left;
 }
