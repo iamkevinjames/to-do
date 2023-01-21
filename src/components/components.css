@@ -1,0 +1,79 @@
+/* Button Css */
+.button-template {
+  color: rgba(120, 120, 120, 1);
+  background-color: transparent;
+  width: 150px;
+  height: 35px;
+  border: 0.01em solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.4em;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.button-template:hover {
+  color: rgba(10, 10, 10, 1);
+  background-color: rgba(150, 255, 150);
+  border: 0;
+  cursor: pointer;
+}
+
+/* Title Css */
+.title-template {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+/* Checkbox Css */
+.checkbox-template {
+  width: 1em;
+  height: 1em;
+  margin-top: 0.5em;
+}
+
+.checkbox-label-template {
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+/* Textbox Css */
+.textBox-template {
+  width: 13em;
+  height: 1.5em;
+  border: 0.01em solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.4em;
+  font-size: 1em;
+  padding: 3px 10px;
+  margin: 0.2em 0.5em;
+  cursor: pointer;
+}
+
+.textbox-label-template {
+  margin-left: 1em;
+  font-size: 0.9em;
+}
+
+/* Card Css */
+.card-template {
+  height: 400px;
+  width: 300px;
+  border: 0.01em solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 0.3em;
+  box-shadow: 0.01em 0.01em 1em 0.1em rgba(0, 0, 0, 0.1);
+}
+
+/* Link Css */
+.link-template {
+  color: rgb(185, 0, 0);
+  opacity: 1;
+  text-decoration: none;
+}
+
+.link-template:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
